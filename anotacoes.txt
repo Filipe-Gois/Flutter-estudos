@@ -1,0 +1,5 @@
+runapp: função responsavel por iniciar o projeto flutter
+MaterialApp: é um widget que fornece maa estrutura completa seguindo os principios de design da google. Permite a definição de temas, rotas, localização e internacionalização, etc.
+StatelessWidget: como se fosse um componente no react que não possui estado mutável. Ex: botôes, ícones, textos ou layouts fixos. Características: Imutabilidade (ao ser ser construido, não pode mudar de aparência ou comportamento, a menos que seja reconstruído) Método build(StatelessWidgets só possuem o metodo build, responsavel por montar o componente.), 
+parametro BuildContext context: 
+scaffold: sempre usar ao construir uma tela
