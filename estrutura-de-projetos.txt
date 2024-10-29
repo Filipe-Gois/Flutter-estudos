@@ -1,0 +1,22 @@
+lib/
+├── main.dart                   # Arquivo principal do app
+├── src/                        # Diretório principal para o código-fonte do app
+│   ├── config/                 # Configurações e constantes do app
+│   │   ├── api.dart            # Configuração de API
+│   │   └── theme.dart          # Configurações de tema
+│   ├── models/                 # Modelos e classes de dados
+│   ├── services/               # Serviços (API, banco de dados, etc.)
+│   │   └── api_service.dart    # Serviço para chamadas de API
+│   ├── controllers/            # Controladores ou Providers (Gerenciamento de estado)
+│   ├── views/                  # Telas e páginas do app
+│   │   ├── home/               # Tela de Home (Exemplo)
+│   │   │   ├── home_view.dart  # Página principal
+│   │   │   └── widgets/        # Componentes da página Home
+│   ├── widgets/                # Widgets reutilizáveis (componentes gerais)
+│   └── utils/                  # Funções utilitárias, helpers
+│       └── validators.dart     # Validações, por exemplo
+├── assets/                     # Recursos (imagens, fontes, etc.)
+│   ├── images/                 # Imagens
+│   └── fonts/                  # Fontes
+└── localization/               # Arquivos de localização para múltiplos idiomas
+    └── en.json                 # Exemplo de arquivo de idioma (Inglês)
